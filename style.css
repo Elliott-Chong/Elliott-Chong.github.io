@@ -57,9 +57,12 @@ button{
     margin-top: 20px;
     border-radius: 20px;
     height:30px;
+    border:2px solid white;
     padding: 20px;
     text-align: center;
     line-height: 0px;
+    background-color: white;
+    
 }
 
 .orange-text{
@@ -69,8 +72,15 @@ button{
     color: hsl(184, 100%, 22%);
 }
 .dark-text{
-     color: hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
 }
+
+button:hover{
+    background-color: transparent;
+    color:white !important;
+}
+
+
 
 @media (min-width: 1100px) {
     .container{
